@@ -21,7 +21,7 @@ void TableCubes(int num)
     int count = 1;
     while (count <= num)
     {
-        // Console.WriteLine($"{count}\t" + Math.Pow(count, 2));
+        // Console.WriteLine($"{count}\t" + Math.Pow(count, 3));
         Console.WriteLine($"{count,1}{Math.Pow(count, 3),8}");
         count++;
     }
